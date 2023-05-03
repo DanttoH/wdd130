@@ -8,8 +8,12 @@ nav a{
     display: block;
     padding: 20px;
 }
+nav a :hover{
+    background-color: steelblue;
+    color: brown;
+}
 h1{
-    color: steelblue;
+    color: black;
 }
 image{
     width: 150px;
