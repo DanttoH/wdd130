@@ -59,7 +59,7 @@ aside{
     width: 250px;
     position: relative;
 }
-aside p{s
+aside p{
     display: table-cell;
     vertical-align: bottom;
     color: white;
@@ -101,5 +101,6 @@ footer p{
     border:  1px solid rgb(11, 11, 11);
     padding: 1rem;
     background-color: steelblue;
-    color: #000
+    color: #000;
+    
 }
