@@ -46,7 +46,7 @@ p{
 
 main{
     max-width: 840px;
-    padding: 15PX;
+    padding: 1rem;
     margin: 1;
 }
 
@@ -54,8 +54,6 @@ aside{
     text-align: center;
     text-decoration: none;
     font-size: 18px;
-    
-    
     width: 250px;
     position: relative;
 }
@@ -63,6 +61,7 @@ aside p{
     display: table-cell;
     vertical-align: bottom;
     color: white;
+   
     
 }
 
@@ -103,4 +102,7 @@ footer p{
     background-color: steelblue;
     color: #000;
     
+}
+.indent{
+    padding-left: 2rem;
 }
