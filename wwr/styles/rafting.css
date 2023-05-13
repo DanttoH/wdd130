@@ -21,11 +21,11 @@ header nav{
 .underscore{
     text-decoration: none;
 }
-.hero{
+#hero{
     position: relative;
 }
 
-.hero-img{
+#hero-img{
     display: block;
     width: 100%;
     height: auto;
@@ -43,6 +43,7 @@ article img{
     color: #fefae0;
     width: 120rem;
     height: 150px;
+    position: absolute;
 }
 #history{
     margin: 1rem;
@@ -56,7 +57,14 @@ article img{
 #history h2{
     text-align: center;
 }
-h1,h2,h3,h4,h5,h6{
+h1{
+    color: #fefae0;
+    position: absolute;
+    background-color: #dda15e;
+}
+
+
+h2,h3,h4,h5,h6{
     color: #fefae0;
 }
 section p{
