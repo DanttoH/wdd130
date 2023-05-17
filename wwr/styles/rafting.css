@@ -15,19 +15,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: var(--light-green);
+}
 header {
    font-family: "Racing Sans One";
 }
 p{
     font-family: "Oswald";
-    color: black;
+    color: var(--white);
 }
 nav{
-    background-color:  #606c38;
+    background-color:  var(--light-green);
 }
 a{
-    background-color: #606c38;
-    color: #fefae0;
+    background-color: var(--light-green);
+    color: var(--white);
 }
 .underscore{
     text-decoration: none;
@@ -51,12 +54,15 @@ h1{
     text-align: center;
   
 }
+h2{
+    color: var(--white);
+}
 article{
     margin: 1rem;
     margin-left: 2;
     border:  1px solid rgb(11, 11, 11);
     padding: 1rem;
-    background-color: rgba(96, 108, 56, 0.75);
+    background-color: rgba(221, 161, 94, 0.75);
     color: #000;
     bottom: 100px;
     width: 50em;
@@ -76,7 +82,7 @@ article img{
     margin-right: 0;
     border:  1px solid rgba(104, 101, 101, 0.76);
     padding: 1rem;
-    background-color: rgba(96, 108, 56, 0.75);
+    background-color: rgba(221, 161, 94, 0.75);
     color: var(--white);
     width: 100%;
 }
