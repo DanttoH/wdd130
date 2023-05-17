@@ -1,80 +1,82 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Racing+Sans+One&display=swap');
+
+
+
+:root {
+   
+    --light-green: #606c38  ;
+    --dark-green: #283618 ;
+    --white: #fefae0;
+    --skin: #dda15e;
+    --dark-skin: #bc6c25;
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+header {
+   font-family: "Racing Sans One";
+}
+p{
+    font-family: "Oswald";
+    color: black;
+}
+nav{
+    background-color:  #606c38;
+}
+a{
     background-color: #606c38;
-    font-family:'Oswald';
-}
-header{
-    background-color: #606c38;
-}
-.logo{
-    width: 100px;
-}
-header nav{
-    display: block;
     color: #fefae0;
 }
 .underscore{
     text-decoration: none;
 }
-#hero{
+.hero{
     position: relative;
 }
-
-#hero-img{
+article{
+    position:absolute;
+}
+.hero img{
     display: block;
     width: 100%;
     height: auto;
 }
+h1{
+    position:absolute;
+    padding-bottom: 200%;
+    padding-top: 1000%;
+    width: 80rem;
+    text-align: center;
+  
+}
+article{
+    margin: 1rem;
+    margin-left: 2;
+    border:  1px solid rgb(11, 11, 11);
+    padding: 1rem;
+    background-color: rgba(96, 108, 56, 0.75);
+    color: #000;
+    bottom: 100px;
+    width: 50em;
+}
+article P{
+    color: var(--white);
+}
 article img{
     float: right;
-    width: 300px;
-    height: 200px; 
 }
-.box1{
+
+/*class selector*/
+
+.hero h1{
     margin: 1rem;
-    border:  1px solid rgb(11, 11, 11);
+    margin-left: 0;
+    margin-right: 0;
+    border:  1px solid rgba(104, 101, 101, 0.76);
     padding: 1rem;
-    background-color: #dda15e;
-    color: #fefae0;
-    width: 120rem;
-    height: 150px;
-    position: absolute;
-}
-#history{
-    margin: 1rem;
-    border:  1px solid rgb(11, 11, 11);
-    padding: 1rem;
-    background-color: #dda15e;
-    color: #fefae0;;
-    width: 120rem;
-    height: 150px;
-}
-#history h2{
-    text-align: center;
-}
-h1{
-    color: #fefae0;
-    position: absolute;
-    background-color: #dda15e;
-}
-
-
-h2,h3,h4,h5,h6{
-    color: #fefae0;
-}
-section p{
-    color: #fefae0;
-
-}
-
-footer{
-    background-color: #bc6c25;
-}
-footer p{
-    color: #fefae0;
+    background-color: rgba(96, 108, 56, 0.75);
+    color: var(--white);
+    width: 100%;
 }
