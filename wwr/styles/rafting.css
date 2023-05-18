@@ -27,10 +27,20 @@ p{
 }
 nav{
     background-color:  var(--light-green);
+    font-family: "Oswald";
 }
 a{
     background-color: var(--light-green);
     color: var(--white);
+}
+nav a{
+    display: inline-block;
+    padding: 5px;
+}
+nav a:hover{
+    background-color: var(--skin);
+    color: var(--white);
+
 }
 .underscore{
     text-decoration: none;
