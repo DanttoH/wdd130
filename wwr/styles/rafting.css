@@ -1,20 +1,20 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Racing+Sans+One&display=swap');
 
-
-
 :root {
-   
     --light-green: #606c38  ;
     --dark-green: #283618 ;
     --white: #fefae0;
     --skin: #dda15e;
     --dark-skin: #bc6c25;
 }
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
     background-color: var(--light-green);
 }
@@ -40,7 +40,6 @@ nav a{
 nav a:hover{
     background-color: var(--skin);
     color: var(--white);
-
 }
 .underscore{
     text-decoration: none;
@@ -62,13 +61,11 @@ h1{
     padding-top: 1000%;
     width: 80rem;
     text-align: center;
-  
 }
 h2{
     color: var(--white);
 }
 article{
-    margin: 1rem;
     margin-left: 2;
     border:  1px solid rgb(11, 11, 11);
     padding: 1rem;
@@ -83,9 +80,7 @@ article P{
 article img{
     float: right;
 }
-
 /*class selector*/
-
 .hero h1{
     margin: 1rem;
     margin-left: 0;
