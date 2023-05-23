@@ -59,14 +59,12 @@ main{
 aside{
     display: grid;
     grid-row: 1;
-    grid-column: ;
     text-align: center;
     text-decoration: none;
     font-size: 18px;
     width: 250px;
     position: relative;
-   
-}
+   }
 aside p{
     display: table-cell;
     vertical-align: bottom;
