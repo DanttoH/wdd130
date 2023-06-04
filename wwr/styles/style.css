@@ -67,6 +67,7 @@ nav a:hover{
     background-color: #dda15e;
     color: #fefae0;
     font-family: 'Oswald';
+    transition:  all 0.3s ease 0s;
 }
 h1 {
     text-align: center;
@@ -119,6 +120,7 @@ footer{
 
 .join:hover{
     background-color: #606c38;
+    transition:  all 0.3s ease 0s;
 
 }
 footer a{
@@ -127,10 +129,11 @@ footer a{
 }
 footer a:hover{
     background-color: #606c38;
+    transition:  all 0.3s ease 0s;
 
 }
 .logo{
-    width: 80px;
+    height: 200px;
     
 }
 .icon{
@@ -172,4 +175,29 @@ main section img{
 }
 .mountains{
     margin: 200px 0;
+
+
+/* class */
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+.logo{
+    cursor: pointer;
+}
+.nav-links a{
+    transition:  all 0.3s ease 0s;
+}
+.nav-links a:hover{
+    transition:  all 0.3s ease 0s;
+    background-color: rgba(221, 161, 94, 0.75);
+    color: var(--white) ;
+}
+.nav-links a{
+        background: rgba(40, 54, 24, 0.75);
+        padding: 1rem;
+        border: 2px solid black;
 }

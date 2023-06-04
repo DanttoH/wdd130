@@ -64,7 +64,8 @@ aside{
     font-size: 18px;
     width: 250px;
     position: relative;
-   }
+   
+}
 aside p{
     display: table-cell;
     vertical-align: bottom;

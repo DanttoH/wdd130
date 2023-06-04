@@ -20,35 +20,32 @@ body{
 }
 header {
    font-family: "Racing Sans One";
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+
 }
 p{
     font-family: "Oswald";
     color: var(--white);
 }
 nav{
-    background-color:  var(--light-green);
+
     font-family: "Oswald";
+    
 }
 a{
-    background-color: var(--light-green);
     color: var(--white);
 }
 nav a{
-    display: inline-block;
     padding: 5px;
-}
-nav a:hover{
-    background-color: var(--skin);
-    color: var(--white);
-}
-.underscore{
     text-decoration: none;
+    margin: auto;
+
 }
 .hero{
     position: relative;
-}
-article{
-    position:absolute;
 }
 .hero img{
     display: block;
@@ -65,22 +62,25 @@ h1{
 h2{
     color: var(--white);
 }
-article{
-    margin-left: 2;
-    border:  1px solid rgb(11, 11, 11);
-    padding: 1rem;
-    background-color: rgba(221, 161, 94, 0.75);
-    color: #000;
-    bottom: 40px;
- 
-    width: 50em;
-}
+
 article P{
     color: var(--white);
 }
 article img{
     float: right;
 }
+footer{
+    padding: 20px 20px;
+    background-color: rgba(221, 161, 94, 0.75);
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
 /*class selector*/
 .hero h1{
     margin: 1rem;
@@ -91,4 +91,121 @@ article img{
     background-color: rgba(221, 161, 94, 0.75);
     color: var(--white);
     width: 100%;
+}
+
+.logo{
+    cursor: pointer;
+    height: 200px;
+}
+.nav-links a{
+    transition:  all 0.3s ease 0s;
+}
+.nav-links a:hover{
+    transition:  all 0.3s ease 0s;
+    background-color: rgba(221, 161, 94, 0.75);
+    color: var(--white) ;
+}
+.nav-links a{
+        background: rgba(40, 54, 24, 0.75);
+        padding: 1rem;
+        border: 2px solid black;
+}
+article{
+    border:  1px solid rgb(11, 11, 11);
+    padding: 1rem;
+    background-color: rgba(221, 161, 94, 0.75);
+    color: #000;
+    width: 66%;
+    max-height: 40%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin: -200px 255px;
+    font-size: 20px;
+    position: absolute;
+}
+.history{
+    padding: 20px 20px;
+    background-color: rgba(221, 161, 94, 0.75);
+    border: 2px solid black;
+    width: 100%;
+    height: 350px;
+    max-width: 1000px;  
+    margin: auto;
+    margin-top: 100px;
+    
+}
+.history img{
+    width: 250px;
+    margin-left: 20px;
+    padding: 20px;
+    float: left;
+}
+.history h2{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 10px;
+    color: var(--white);
+}
+.history p{
+    margin-top: 10px;
+    font-size: 20px;
+
+}
+.adventure{
+    padding: 120px 15px;
+    background-color: rgba(221, 161, 94, 0.75);
+    border: 2px solid black;
+    width: 90%;
+    display: flex;  
+    margin: auto;
+    margin-top: 100px;
+
+}
+.content1{
+ display: flex;
+}
+.im1{
+    text-align: center;
+    height: 180px;
+    font-size: 20px;
+    padding: 10px;
+}
+.im2{
+    height: 180px;
+    font-size: 20px;
+    padding: 10px;
+}
+.im3{
+    height: 250px;
+    font-size: 20px;
+    padding: 10px;
+
+}
+.im4{
+    height: 180px;
+    font-size: 20px;
+    padding: 10px;
+}
+.im5{
+    height: 180px;
+    padding: 10px;
+}
+.adtitle{
+   margin-left: 40rem;
+  position: absolute;
+  margin-top: 60px;
+  font-size: 20px;
+}
+.socialmedialinks img{
+    display: inline-block;
+    height:  60px;
+    padding: 10px;
+}
+.copyr p{
+    text-align: center;
+    margin-left: 400px;
+
 }
