@@ -1,0 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Racing+Sans+One&display=swap');
+
+:root {
+    --light-green: #606c38  ;
+    --dark-green: #283618 ;
+    --white: #fefae0;
+    --skin: #dda15e;
+    --dark-skin: #bc6c25;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--light-green);
+}
+header {
+   font-family: "Racing Sans One";
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+
+}
+p{
+    font-family: "Oswald";
+    color: var(--white);
+}
+nav{
+
+    font-family: "Oswald";
+}
+nav a{
+    padding: 5px;
+    text-decoration: none;
+    margin: auto;
+}
+header {
+    font-family: "Racing Sans One";
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 30px 10%;
+ 
+ }
+ 
+ /*class selector*/
