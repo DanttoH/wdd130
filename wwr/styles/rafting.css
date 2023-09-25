@@ -1,5 +1,4 @@
 
- /* @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Racing+Sans+One&display=swap'); */
 @font-face {
     font-family: Racing+Sans+One;
     src: url(https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Racing+Sans+One&display=swap);
@@ -94,7 +93,8 @@ footer{
     padding: 30px 10%;
 }
 
-/* Rules for Classes */
+/* Class Selectors */
+
 .hero h1{
     margin: 1rem;
     margin-left: 0;

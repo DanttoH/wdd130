@@ -1,5 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Racing+Sans+One&display=swap');
 
+@font-face {
+    font-family: Racing+Sans+One;
+    src: url(https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Racing+Sans+One&display=swap);
+    font-family: Oswald;
+    src: url(https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Racing+Sans+One&display=swap);
+}
 div {
     max-width: 1600px;
 }
@@ -177,7 +182,7 @@ main section img{
     margin: 200px 0;
 
 
-/* class */
+/* Class Selectors */
 }
 header{
     display: flex;
