@@ -18,16 +18,24 @@
 body{
     background-color: var(--light-green);
 }
+@font-face {
+    font-family: "racing+sans+one";
+    src: url(https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Racing+Sans+One&display=swap);
+}
 header {
-   font-family: "Racing Sans One";
+  
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
 
 }
-p{
+@font-face {
     font-family: "Oswald";
+    src: url(https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Racing+Sans+One&display=swap);
+}t
+p{
+    
     color: var(--white);
 }
 nav{
