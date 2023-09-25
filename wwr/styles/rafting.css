@@ -1,6 +1,12 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Racing+Sans+One&display=swap');
+ /* @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Racing+Sans+One&display=swap'); */
+@font-face {
+    font-family: Racing+Sans+One;
+    src: url(https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Racing+Sans+One&display=swap);
+    font-family: Oswald;
+    src: url(https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Racing+Sans+One&display=swap);
 
+}
 :root {
     --light-green: #606c38  ;
     --dark-green: #283618 ;
@@ -18,24 +24,16 @@
 body{
     background-color: var(--light-green);
 }
-@font-face {
-    font-family: "racing+sans+one";
-    src: url(https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Racing+Sans+One&display=swap);
-}
 header {
-  
+   font-family: "Racing Sans One";
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
 
 }
-@font-face {
-    font-family: "Oswald";
-    src: url(https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Racing+Sans+One&display=swap);
-}t
 p{
-    
+    font-family: "Oswald";
     color: var(--white);
 }
 nav{
@@ -96,7 +94,7 @@ footer{
     padding: 30px 10%;
 }
 
-/* Rules for the classes and Id */
+/*class selector*/
 .hero h1{
     margin: 1rem;
     margin-left: 0;
