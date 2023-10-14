@@ -169,7 +169,7 @@ article{
     padding: 120px 15px;
     background-color: rgba(221, 161, 94, 0.75);
     border: 2px solid black;
-    width: 90%;
+    width: 75%;
     display: flex;  
     margin: auto;
     margin-top: 100px;
@@ -177,31 +177,38 @@ article{
 }
 .content1{
  display: flex;
+ align-items: center;
 }
 .im1{
     text-align: center;
-    height: 180px;
+    max-width: 220px;
+    max-height: 150px;
     font-size: 20px;
     padding: 10px;
 }
 .im2{
-    height: 180px;
+    max-width: 220px;
+    max-height: 150px;
     font-size: 20px;
     padding: 10px;
 }
 .im3{
-    height: 250px;
+    max-width: 220px;
+    max-height: 250px;
     font-size: 20px;
     padding: 10px;
+    margin-top: -80px;
 
 }
 .im4{
-    height: 180px;
+    max-width: 220px;
+    max-height: 150px;
     font-size: 20px;
     padding: 10px;
 }
 .im5{
-    height: 180px;
+    max-width: 220px;
+    max-height: 350px;
     padding: 10px;
 }
 .adtitle{
@@ -220,3 +227,24 @@ article{
     margin-left: 400px;
 
 }
+
+/*class figure selector */
+
+figure {
+    border: thin var(--white);
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+  }
+  
+  figcaption {
+    background: var(--light-green);
+    color: var(--white);
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+    border: 2px solid black;
+  }
+  
