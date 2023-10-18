@@ -1,0 +1,116 @@
+
+
+:root {
+  --light-green: #606c38  ;
+  --dark-green: #283618 ;
+  --white: #fefae0;
+  --skin: #dda15e;
+  --dark-skin: #bc6c25;
+}
+
+* {margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    background-color: var(--light-green)
+}
+h1{
+    width: 30%;
+    background-color: var(--dark-green);
+    border:  1px solid rgb(11, 11, 11);
+    border-radius: 4px;
+    border-radius: 30px;
+    box-shadow: 7px 13px 37px #000;
+    padding: 10px;
+    margin-top: 115px;
+    margin-bottom: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    color: white;
+    margin-left: 550px;
+    text-align: center;
+
+
+}
+header {
+  font-family: "Racing Sans One";
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 30px 10%;
+}
+.logo{
+  cursor: pointer;
+  height: 200px;
+}
+.nav-links a{
+  transition:  all 0.3s ease 0s;
+}
+.nav-links a:hover{
+  transition:  all 0.3s ease 0s;
+  background-color: rgba(221, 161, 94, 0.75);
+  color: var(--white) ;
+}
+.nav-links a{
+      background: rgba(40, 54, 24, 0.75);
+      padding: 1rem;
+      border: 2px solid black;
+}
+
+.socialmedialinks img{
+    display: inline-block;
+    height:  60px;
+    padding: 10px;
+}
+.copyr p{
+    text-align: center;
+    margin-left: 400px;
+}
+p{
+  font-family: "Oswald";
+  color: var(--white);
+}
+nav{
+
+  font-family: "Oswald";
+  
+}
+a{
+  color: var(--white);
+}
+nav a{
+  padding: 5px;
+  text-decoration: none;
+  margin: auto;
+
+}
+.logo{
+  cursor: pointer;
+  height: 200px;
+}
+.nav-links a{
+  transition:  all 0.3s ease 0s;
+}
+.nav-links a:hover{
+  transition:  all 0.3s ease 0s;
+  background-color: rgba(221, 161, 94, 0.75);
+  color: var(--white) ;
+}
+.nav-links a{
+      background: rgba(40, 54, 24, 0.75);
+      padding: 1rem;
+      border: 2px solid black;
+}
+footer{
+    padding: 20px 20px;
+    background-color: rgba(221, 161, 94, 0.75);
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    height: 50px;
+}
