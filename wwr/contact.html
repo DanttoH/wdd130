@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>contact us</title>
-    <link rel="stylesheet" href="styles/rafting copy.css">
+    <link rel="stylesheet" href="styles/contact.css">
    
 
 
@@ -41,27 +41,49 @@
                     <div class="contact-form">
                         <h3>In 48 hrs busisness day an agent will contact you</h3>
                         <form action="submit-contact.html">
+                            
+                                   
+                            <div class="radiobuttoms">
+                                <p>Purpose of your message </p>
+                                    <input class="radiob" type="radio" name="option" id="General-Inquiry"  >
+                                    <label for="General-Inquiry"> General Inquiry</label>
+                                    
+            
+                            
+                                    
+                                    <input class="radiob" type="radio" name="option" id="Reservation-Question" >
+                                    <label for="Reservation-Question"> Reservation Question</label>
+
+                                
+                                     
+                                    <input class="radiob" type="radio" name="option" id="Website-Suggestion" >
+                                    <label for="Website-Suggestion"> Website Suggestion</label>
+                                    
+    
+                                </p>
+                            </div>
+                            <div class="user-info">
                             <p>
-                                <label for="fullname">Full Name</label>
+                                <label class="fullname" for="fullname">Full Name</label><br>
                                 <input  type="text" id="q1" name="fullname" id="fullname" placeholder="Type your name ">
                             </p>
-                            <p class="email">
+                            <p class="email"><br>
                                 <label>Email Address</label>
                                 <input class="email1" type="email" name="email" id="email" placeholder="Type your email">
                             </p>
-                            <p class="choice">
-                                <label class="pick" for="q3">Purpose of your message</label>
-                                <select  class="answer-box" name="radiobuttoms" id="q3">
-                                <option value=>A.  General Inquiry</option>
-                                <option value=> B.  Reservation Question</option>
-                                <option value=>C.  Website Suggestion </option>
-                                </select><br>
+                            </div>
+                            
+                           
+                        
 
-                            </p>
+                            
                             <p class="block">
                                 <label class="question" for="message-box"> Your Message</label>
                                 <textarea name="message"  rows="3"></textarea> 
                             </p>
+                        
+                                </p>
+    
                             <p class="block">
                                 <input class="submit" type="submit" value="Submit">
                             </p>
@@ -78,6 +100,15 @@
                                     <div class="map">
                                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13379.062811427939!2d-69.12320584058762!3d-33.036302675987116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967de96e0e73d1fb%3A0x97eb22810ca3669f!2sMirador%20del%20rio!5e0!3m2!1ses!2sar!4v1697321141468!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                     </div>
+                                    <div class="check-box">
+                                    <p class="check">
+
+                                            <input type="checkbox" name="subscribe" id="subscribe" value="subscribe">
+                                            <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                                            
+                                    </p>
+                                    </div>
+                        
                       
                                 </ul>
                             </div>   
