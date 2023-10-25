@@ -28,6 +28,8 @@ main section{
 }
 #background{
     height: 725px;
+    
+
 }
 body{
     background-color: #606c38 ;
@@ -80,18 +82,25 @@ h1 {
     color: #fefae0;
     font-family: 'Racing Sans One';
     margin: 200px 0;
+    max-height: 150px;
+    font-size: 20px;
+    
 }
 .camping-card{
     text-align: center;
     color: #fefae0;
     font-family: 'Racing Sans One';
     margin: 200px 0;
+    max-height: 150px;
+    font-size: 20px;
 }
 .rapids-card{
     text-align: center;
     color: #fefae0;
     font-family: 'Racing Sans One';
     margin: 200px 0;
+    max-height: 150px;
+    font-size: 20px;
 }
 h4{
     text-align: center;
@@ -99,6 +108,10 @@ h4{
 }
 #background{
     background-color: #606c38 ;
+}
+.background img{
+    max-height: 150px;
+    font-size: 20px;
 }
 #rivers-card h2 {
     color: #fefae0;
@@ -110,15 +123,27 @@ h4{
     font-size: .8em;
     line-height: 1.5em;
     padding: 35px;
+    position: relative;
+    height: 90px;
+    margin-left: 25px;
+    width: 100%;
+   
 }
 footer{
-    background-color: #dda15e;
-    color: #fefae0;
-    margin-top: 200px;
-    padding: 25px 50px;
-    
+        padding: 20px 20px;
+        background-color: rgba(221, 161, 94, 0.75);
+        border: 2px solid black;
+        margin: auto;
+        margin-top: 400px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 10%;
 }
-
+footer p {
+    color: #fefae0;
+    text-decoration: none;
+}
 .join:hover{
     background-color: #606c38;
     transition:  all 0.3s ease 0s;
@@ -201,4 +226,12 @@ header{
         background: rgba(40, 54, 24, 0.75);
         padding: 1rem;
         border: 2px solid black;
+}
+.home-grid{
+    display: flex;
+    flex-wrap: wrap;
+}
+.content1{
+display: flex;
+margin-left: 10em;
 }
