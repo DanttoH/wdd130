@@ -1,0 +1,217 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Racing+Sans+One&display=swap');
+
+
+:root {
+    --light-green: #606c38  ;
+    --dark-green: #283618 ;
+    --white: #fefae0;
+    --skin: #dda15e;
+    --dark-skin: #bc6c25;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--light-green);
+}
+header {
+   font-family: "Racing Sans One";
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+
+}
+p{
+    font-family: "Oswald";
+    color: var(--white);
+}
+nav{
+
+    font-family: "Oswald";
+    
+}
+a{
+    color: var(--white);
+}
+nav a{
+    padding: 5px;
+    text-decoration: none;
+    margin: auto;
+
+}
+.hero{
+    position: relative;
+    height: auto;
+}
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+
+
+
+
+}
+footer{
+    padding: 20px 20px;
+    background-color: rgba(221, 161, 94, 0.75);
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+h2{
+    font-family: 'Oswald';
+    color: var(--white);
+    padding: 5px;
+}
+/* Class Selectors */
+.hero h1{
+    margin: 1rem;
+    margin-left: 0;
+    margin-right: 0;
+    border:  1px solid rgba(104, 101, 101, 0.76);
+    padding: 1rem;
+    background-color: rgba(221, 161, 94, 0.75);
+    color: var(--white);
+    width: 100%;
+    height: auto;
+}
+
+.logo{
+    cursor: pointer;
+    height: 200px;
+}
+.nav-links a{
+    transition:  all 0.3s ease 0s;
+}
+.nav-links a:hover{
+    transition:  all 0.3s ease 0s;
+    background-color: rgba(221, 161, 94, 0.75);
+    color: var(--white) ;
+}
+.nav-links a{
+        background: rgba(40, 54, 24, 0.75);
+        padding: 1rem;
+        border: 2px solid black;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+aside{
+    background-color: var(--skin);
+    padding: 20px;
+    flex: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    width: 250px;
+    position: relative;
+}
+.box,.box1,.box2{
+    margin: 1rem;
+    border:  1px solid rgb(11, 11, 11);
+    padding: 1rem;
+    background-color:  rgba(40, 54, 24, 0.75);
+    color: #000;
+    position: relative;
+}
+aside img{
+width: 200px;
+height: auto; 
+padding: 5px;
+}
+table,th,td{
+    border: 3px solid black;
+   
+}
+table{
+    width: 100%;
+    height: 200px;
+    background-color:var(--light-green)
+}
+th,td{
+    text-align: center;
+    color: var(--white);
+}
+
+
+
+
+.socialmedialinks img{
+    display: inline-block;
+    height:  60px;
+    padding: 10px;
+}
+.copyr p{
+    text-align: center;
+    margin-left: 400px;
+
+}
+
+.hero{
+    position: relative;
+    height: auto;
+}
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.book{
+    background: rgba(40, 54, 24, 0.75);
+    border: 2px solid black;
+    color: #fefae0;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    position: absolute;
+    font-family: 'Oswald';
+    margin-left: 40em;
+    margin-top: 15em;
+}
+.book:hover{
+    transition:  all 0.3s ease 0s;
+    background-color: rgba(221, 161, 94, 0.75);
+    color: var(--white) ;
+    font-family: "Oswald";
+
+}
+.button,.button1,.button2{
+    background-color: rgba(221, 161, 94, 0.75);
+    color: var(--white) ;
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 5px;
+    margin: auto;
+    border-radius: 5px;
+    font-family: "oswald";
+
+}
+.button-book :hover{
+    transition:  all 0.3s ease 0s;
+    background: rgba(40, 54, 24, 0.75);
+
+
+}
+.button-book{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    margin-top: .5px;
+    padding: 5px;
+  
+
+}
